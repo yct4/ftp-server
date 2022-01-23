@@ -5,6 +5,7 @@ Includes a client and server.
 Steps:
 0. Setting up Go on computer and being able to build file - X
 1. Learn about ftp protocol - review the RFC and Go tutorial *
+- practice using filezilla client and server
 2. Set up main.go file with basic listener that listens for new connections
 3. Set up FTP server - implement FTP protocol
 - connection type
@@ -21,4 +22,10 @@ Resources:
 - How to vendor dependencies in Go: (using go modules) -> https://go.dev/ref/mod#mod-commands
 - Golang GUI types -> https://github.com/go-graphics/go-gui-projects
 - Golang nettest library -> https://pkg.go.dev/golang.org/x/net/nettest
-- How to test in Go -> 
+- How to test in Go ->
+- FTP vs. SFTP server:
+  -> FTP - https://tecadmin.net/download-upload-files-using-ftp-command-line/
+  -> SFTP - https://tecadmin.net/download-and-upload-files-with-sftp/
+- various FTP commands
+  -> https://en.wikipedia.org/wiki/List_of_FTP_commands
+  -> https://www.serv-u.com/resource/tutorial/appe-stor-stou-retr-list-mlsd-mlst-ftp-command
