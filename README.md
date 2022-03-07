@@ -5,7 +5,7 @@ Includes a client and server.
 Steps:
 0. Setting up Go on computer and being able to build file - X
 1. Learn about ftp protocol - review the RFC and Go tutorial *
-- practice using filezilla client and server
+- practice using proftpd server and ftp or alternative clients
 2. Set up main.go file with basic listener that listens for new connections
 3. Set up FTP server - implement FTP protocol
 - connection type
@@ -13,6 +13,7 @@ Steps:
 - Serve function
 4. Set up FTP client
 5. Work on a GUI for our ftp client (and maybe server?)
+6. Set up Github actions with DigitalOcean droplet to automatically compile and run test ftp server on droplet
 
 Resources:
 - Installing Go: https://go.dev/learn/
