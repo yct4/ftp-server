@@ -4,8 +4,8 @@ Includes a client and server.
 
 Steps:
 0. Setting up Go on computer and being able to build file - X
-1. Learn about ftp protocol - review the RFC and Go tutorial *
-- practice using proftpd server and ftp or alternative clients
+1. Learn about ftp protocol - review the RFC and Go tutorial - X
+- practice using proftpd server and ftp or alternative clients - X
 2. Set up main.go file with basic listener that listens for new connections
 3. Set up FTP server - implement FTP protocol
 - connection type
@@ -30,3 +30,6 @@ Resources:
 - various FTP commands
   -> https://en.wikipedia.org/wiki/List_of_FTP_commands
   -> https://www.serv-u.com/resource/tutorial/appe-stor-stou-retr-list-mlsd-mlst-ftp-command
+- How to create a REPL (http://diego-pacheco.blogspot.com/2018/07/writing-simple-repl-in-go.html)
+- Golang Cobra library (https://github.com/spf13/cobra)
+- Golang Prompt library for building REPLs (https://github.com/c-bata/go-prompt)
